@@ -6,5 +6,3 @@ print("Abhinav interpreter update")
 print("Abhinav update 2")
 print("pycharm is bs")
 print("abhinav uopdate 3")
-print("Siddarth's system is working yo")
-
