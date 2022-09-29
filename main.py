@@ -1,29 +1,22 @@
-import mysql.connector
 import random
-
-screen_name = input("Enter Player Name: ")
-
-co2_budget = 1000
-co2_consumed = 0
-
-location = "EFHK"
+import mysql.connector
 
 
 def getAirports():
+    list_of_airports = []
     sql = "SELECT name FROM airport WHERE iso_country = 'FI'" + f";"
     cursor = connection.cursor()
     cursor.execute(sql)
     result = cursor.fetchall()
-    return result
+    for airport in result:
+        list_of_airports.append(airport[0])
+    return list_of_airports
 
 
 def passengerTravel():
-    plane_capacity = 150
     for airport in getAirports():
-        airport_passenger = random.randint(0, plane_capacity)
-        plane_capacity = plane_capacity - airport_passenger
-        airport_passenger = airport + ": " + str(airport_passenger)
-    return airport_passenger
+        print(airport + ": " + str(random.randint(80, 150)))
+    return
 
 
 connection = mysql.connector.connect(
@@ -35,5 +28,11 @@ connection = mysql.connector.connect(
     autocommit=True
 )
 
-print(getAirports())
-print(passengerTravel())
+screen_name = input("Enter Player Name: ")
+print("List of airports: " + str(getAirports()))
+location = input("Enter your starting airport: ")
+
+
+# co2_budget = 1000
+# co2_consumed = 0
+
