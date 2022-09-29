@@ -1,4 +1,4 @@
-import random
+from random import randint
 import mysql.connector
 
 
@@ -15,7 +15,7 @@ def getAirports():
 
 def passengerTravel():
     for airport in getAirports():
-        print(airport + ": " + str(random.randint(80, 150)))
+        print(airport + ": " + str(randint(80, 150)))
     return
 
 
@@ -28,10 +28,25 @@ connection = mysql.connector.connect(
     autocommit=True
 )
 
-screen_name = input("Enter Player Name: ")
-print("List of airports: " + str(getAirports()))
-location = input("Enter your starting airport: ")
+screen_name = input("Enter Player Name (min. 3 characters): ")
+while True:
+    if len(screen_name) >= 3:
+        break
+    else:
+        print("Enter a player name with a minimum of 3 characters.")
+        screen_name = input("Enter Player Name (min. 3 characters): ")
 
+print("List of airports: \n")
+for airport in getAirports():
+    print(airport)
+
+location = input("\nEnter your starting airport: ")
+while True:
+    if location in getAirports():
+        break
+    else:
+        print("Enter a valid airport.")
+        location = input("\nEnter your starting airport: ")
 
 # co2_budget = 1000
 # co2_consumed = 0
