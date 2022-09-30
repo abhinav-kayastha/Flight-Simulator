@@ -62,7 +62,12 @@ while passenger_sum <= 300:
             print(f"{airport}: {airport_passenger_amount[airport]} passengers")
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
         next_location = input("\nNext Destination: ")
-        passenger_sum += airport_passenger_amount[next_location]
+        while True:
+            if next_location in list_of_airports:
+                passenger_sum += airport_passenger_amount[next_location]
+                break
+            else:
+                next_location = input("\nEnter a valid airport: ")
         for airport in airport_passenger_amount:
             airport_passenger_amount[airport] = randint(80, 150)
         while True:
