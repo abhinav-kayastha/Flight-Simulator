@@ -28,6 +28,8 @@ connection = mysql.connector.connect(
     autocommit=True
 )
 
+list_of_airports = getAirports()
+
 screen_name = input("Enter Player Name (min. 3 characters): ")
 while True:
     if len(screen_name) >= 3:
@@ -37,17 +39,30 @@ while True:
         screen_name = input("Enter Player Name (min. 3 characters): ")
 
 print("List of airports: \n")
-for airport in getAirports():
+for airport in list_of_airports:
     print(airport)
 
-location = input("\nEnter your starting airport: ")
+starting_location = input("\nEnter your starting airport: ")
 while True:
-    if location in getAirports():
+    if starting_location in getAirports():
         break
     else:
         print("Enter a valid airport.")
-        location = input("\nEnter your starting airport: ")
+        starting_location = input("\nEnter your starting airport: ")
+
+list_of_airports.remove(starting_location)
+
+while True:
+    while True:
+        next_location = input("Next Destination: ")
+        for airport in list_of_airports:
+            print(airport)
+        if next_location in list_of_airports:
+            list_of_airports.remove(next_location)
+            break
+        else:
+            print("\nEnter a valid airport.")
+            next_location = input("Next Destination: ")
 
 # co2_budget = 1000
 # co2_consumed = 0
-
