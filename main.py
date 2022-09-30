@@ -53,17 +53,21 @@ while True:
         starting_location = input("\nEnter your starting airport: ")
 
 list_of_airports.remove(starting_location)
+airport_passenger_amount.pop(starting_location)
 
 while True:
     while True:
-        next_location = input("Next Destination: ")
         for airport in list_of_airports:
-            print(airport)
+            print(f"{airport}: {airport_passenger_amount[airport]}")
+        next_location = input("\nNext Destination: ")
         while True:
             if next_location in list_of_airports:
                 list_of_airports.remove(next_location)
+                airport_passenger_amount.pop(next_location)
                 break
             else:
+                for airport in airport_passenger_amount:
+                    print(f"{airport}: {airport_passenger_amount[airport]}")
                 print("\nEnter a valid airport.")
                 next_location = input("\nNext Destination: ")
 
