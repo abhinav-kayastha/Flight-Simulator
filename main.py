@@ -13,6 +13,7 @@ def getAirports():
     return list_of_airports
 
 
+
 def passengerTravel():
     airport_passenger_amount = {}
     for airport in getAirports():
