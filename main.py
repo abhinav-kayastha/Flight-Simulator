@@ -56,10 +56,15 @@ list_of_airports.remove(starting_location)
 airport_passenger_amount.pop(starting_location)
 
 while True:
+    passenger_sum = 0
     while True:
         for airport in list_of_airports:
-            print(f"{airport}: {airport_passenger_amount[airport]}")
+            print(f"{airport}: {airport_passenger_amount[airport]} passengers")
+        print(f"\nTotal amount of passengers transported: {passenger_sum}")
         next_location = input("\nNext Destination: ")
+        passenger_sum += airport_passenger_amount[next_location]
+        for airport in airport_passenger_amount:
+            airport_passenger_amount[airport] = randint(80, 150)
         while True:
             if next_location in list_of_airports:
                 list_of_airports.remove(next_location)
@@ -67,7 +72,7 @@ while True:
                 break
             else:
                 for airport in airport_passenger_amount:
-                    print(f"{airport}: {airport_passenger_amount[airport]}")
+                    print(f"{airport}: {airport_passenger_amount[airport]} passengers")
                 print("\nEnter a valid airport.")
                 next_location = input("\nNext Destination: ")
 
