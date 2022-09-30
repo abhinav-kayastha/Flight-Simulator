@@ -14,9 +14,10 @@ def getAirports():
 
 
 def passengerTravel():
+    airport_passenger_amount = {}
     for airport in getAirports():
-        print(airport + ": " + str(randint(80, 150)))
-    return
+        airport_passenger_amount[airport] = randint(80, 150)
+    return airport_passenger_amount
 
 
 connection = mysql.connector.connect(
@@ -29,6 +30,7 @@ connection = mysql.connector.connect(
 )
 
 list_of_airports = getAirports()
+airport_passenger_amount = passengerTravel()
 
 screen_name = input("Enter Player Name (min. 3 characters): ")
 while True:
@@ -57,12 +59,13 @@ while True:
         next_location = input("Next Destination: ")
         for airport in list_of_airports:
             print(airport)
-        if next_location in list_of_airports:
-            list_of_airports.remove(next_location)
-            break
-        else:
-            print("\nEnter a valid airport.")
-            next_location = input("Next Destination: ")
+        while True:
+            if next_location in list_of_airports:
+                list_of_airports.remove(next_location)
+                break
+            else:
+                print("\nEnter a valid airport.")
+                next_location = input("\nNext Destination: ")
 
 # co2_budget = 1000
 # co2_consumed = 0
