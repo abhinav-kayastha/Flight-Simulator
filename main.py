@@ -54,10 +54,10 @@ while True:
 
 list_of_airports.remove(starting_location)
 airport_passenger_amount.pop(starting_location)
+passenger_sum = 0
 
-while True:
-    passenger_sum = 0
-    while True:
+while passenger_sum <= 300:
+    if passenger_sum <= 300:
         for airport in list_of_airports:
             print(f"{airport}: {airport_passenger_amount[airport]} passengers")
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
@@ -76,6 +76,7 @@ while True:
                 print("\nEnter a valid airport.")
                 next_location = input("\nNext Destination: ")
 
+print("Congratulations, you win!")
 # co2_budget = 1000
 # co2_consumed = 0
 
