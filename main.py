@@ -1,3 +1,4 @@
+from geopy import distance
 from random import randint
 import mysql.connector
 
@@ -18,6 +19,25 @@ def passengerTravel():
     for airport in getAirports():
         airport_passenger_amount[airport] = randint(80, 150)
     return airport_passenger_amount
+
+
+def distanceTravelled(current_location, future_location):
+    coordinate_1 = []
+    coordinate_2 = []
+    sql1 = f"SELECT latitude_deg, longitude_deg FROM airport WHERE name = '{current_location}'" + f";"
+    sql2 = f"SELECT latitude_deg, longitude_deg FROM airport WHERE name = '{future_location}'" + f";"
+    cursor1 = connection.cursor()
+    cursor1.execute(sql1)
+    result1 = cursor1.fetchall()
+    cursor2 = connection.cursor()
+    cursor2.execute(sql2)
+    result2 = cursor2.fetchall()
+    for coordinate in result1:
+        coordinate_1.append(coordinate)
+    for coordinate in result2:
+        coordinate_2.append(coordinate)
+    distance_travelled = round((distance.distance(tuple(coordinate_1), tuple(coordinate_2)).km), 3)
+    return distance_travelled
 
 
 connection = mysql.connector.connect(
@@ -55,16 +75,20 @@ while True:
 list_of_airports.remove(starting_location)
 airport_passenger_amount.pop(starting_location)
 passenger_sum = 0
+fuel_efficiency = 0
 
 while passenger_sum <= 300:
     if passenger_sum <= 300:
         for airport in list_of_airports:
             print(f"{airport}: {airport_passenger_amount[airport]} passengers")
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
+        current_location = starting_location
         next_location = input("\nNext Destination: ")
+        print(f"Current Fuel Efficiency: {round(0.125 * distanceTravelled(current_location, next_location), 2)} kg of CO2")
         while True:
             if next_location in list_of_airports:
                 passenger_sum += airport_passenger_amount[next_location]
+                current_location = next_location
                 break
             else:
                 next_location = input("\nEnter a valid airport: ")
@@ -80,8 +104,7 @@ while passenger_sum <= 300:
                     print(f"{airport}: {airport_passenger_amount[airport]} passengers")
                 print("\nEnter a valid airport.")
                 next_location = input("\nNext Destination: ")
+                current_location = next_location
 
 print(f"Congratulations, you win! You have transported {passenger_sum} passengers.")
-# co2_budget = 1000
-# co2_consumed = 0
 
