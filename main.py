@@ -43,15 +43,19 @@ def distanceTravelled(current_location, future_location):
 connection = mysql.connector.connect(
     host="127.0.0.1",
     port="3306",
-    database="flight_game",
+    database="flightgame",
     user="root",
-    password="2012004",
+    password="AabanPrasla",
     autocommit=True
 )
 
 list_of_airports = getAirports()
 airport_passenger_amount = passengerTravel()
-
+print("Welcome to the about page, this page is to help you understand the purpose behind this game, explain the rules of the game and, most importantly how to win in the game.\n"
+      "Firstly starting of with the purpose, the purpose of the game is teach the player the importance being sustainable. Recent years, us humans have taken everything for granted and excepted that our current lifestyle will contiune but this is not possible so this game wishes to show how being recyclable is rewarding.\n"
+      "Secondly, the rules of the games are ....\n"
+      "Thirdly, the aim of the game is to transport as many passengers as possible using as little co2 as possible.\n"
+      "And with all these things in mind, we hope you enjoy our game and learn to be a little bit more sustainable.\n")
 screen_name = input("Enter Player Name (min. 3 characters): ")
 while True:
     if len(screen_name) >= 3:
