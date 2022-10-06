@@ -64,7 +64,7 @@ print("List of airports: \n")
 for airport in list_of_airports:
     print(airport)
 
-starting_location = input("\nEnter your starting airport: ")
+starting_location = input("\nEnter your starting airport: \n")
 while True:
     if starting_location in getAirports():
         break
@@ -84,7 +84,10 @@ while passenger_sum <= 300:
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
         current_location = starting_location
         next_location = input("\nNext Destination: ")
-        fuel_efficiency += round(0.125 * distanceTravelled(current_location, next_location), 2)
+        if next_location in list_of_airports:
+            fuel_efficiency += round(0.125 * distanceTravelled(current_location, next_location), 2)
+        else:
+            continue
         while True:
             if next_location in list_of_airports:
                 passenger_sum += airport_passenger_amount[next_location]
