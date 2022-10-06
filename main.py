@@ -36,7 +36,7 @@ def distanceTravelled(current_location, future_location):
         coordinate_1.append(coordinate)
     for coordinate in result2:
         coordinate_2.append(coordinate)
-    distance_travelled = round((distance.distance(tuple(coordinate_1), tuple(coordinate_2)).km), 3)
+    distance_travelled = round(distance.distance(tuple(coordinate_1), tuple(coordinate_2)).km, 3)
     return distance_travelled
 
 
