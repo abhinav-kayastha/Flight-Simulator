@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="database creation" type="DatabaseScript" editBeforeRun="true">
-    <script-file value="$PROJECT_DIR$/new 1.sql" />
-    <script-mode>FILE</script-mode>
-    <method v="2" />
-  </configuration>
-</component>

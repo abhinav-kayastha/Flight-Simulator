@@ -81,7 +81,7 @@ while passenger_sum <= 300:
                 print("\nEnter a valid airport.")
                 next_location = input("\nNext Destination: ")
 
-print("Congratulations, you win!")
+print(f"Congratulations, you win! You have transported {passenger_sum} passengers.")
 # co2_budget = 1000
 # co2_consumed = 0
 
