@@ -68,16 +68,16 @@ print("List of airports: \n")
 for airport in list_of_airports:
     print(airport)
 
-starting_location = input("\nEnter your starting airport: ")
+next_location = input("\nEnter your starting airport: ")
 while True:
-    if starting_location in getAirports():
+    if next_location in getAirports():
         break
     else:
         print("Enter a valid airport.")
-        starting_location = input("\nEnter your starting airport: ")
+        next_location = input("\nEnter your starting airport: ")
 
-list_of_airports.remove(starting_location)
-airport_passenger_amount.pop(starting_location)
+list_of_airports.remove(next_location)
+airport_passenger_amount.pop(next_location)
 passenger_sum = 0
 fuel_efficiency = 0
 total_distance_travelled = 0
@@ -86,9 +86,9 @@ Amount_of_CO2_emitted_per_km = 0.125
 
 while passenger_sum <= Total_number_passenger:
     if passenger_sum <= Total_number_passenger:
-        current_location = starting_location
+        current_location = next_location
         for airport in list_of_airports:
-            print(f"{airport}: {airport_passenger_amount[airport]} passengers, distance to airport: {distanceTravelled(current_location, airport)}")
+            print(f"{airport}: {airport_passenger_amount[airport]} passengers, Distance to Airport: {round(distanceTravelled(current_location, airport))} km")
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
         next_location = input("\nNext Destination: ")
         if next_location in list_of_airports:
