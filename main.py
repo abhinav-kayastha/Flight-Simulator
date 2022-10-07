@@ -80,16 +80,18 @@ list_of_airports.remove(starting_location)
 airport_passenger_amount.pop(starting_location)
 passenger_sum = 0
 fuel_efficiency = 0
+total_distance_travelled = 0
 
 while passenger_sum <= 300:
     if passenger_sum <= 300:
+        current_location = starting_location
         for airport in list_of_airports:
             print(f"{airport}: {airport_passenger_amount[airport]} passengers")
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
-        current_location = starting_location
         next_location = input("\nNext Destination: ")
         if next_location in list_of_airports:
             fuel_efficiency += round(0.125 * distanceTravelled(current_location, next_location), 2)
+            total_distance_travelled += distanceTravelled(current_location, next_location)
         else:
             continue
         while True:
@@ -113,5 +115,5 @@ while passenger_sum <= 300:
                 next_location = input("\nNext Destination: ")
                 current_location = next_location
 
-print(f"Congratulations, you win! You have transported {passenger_sum} passengers, by using {fuel_efficiency} kg of CO2.")
+print(f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled, 2)} km, by using {fuel_efficiency} kg of CO2.")
 
