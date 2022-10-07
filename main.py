@@ -43,9 +43,9 @@ def distanceTravelled(current_location, future_location):
 connection = mysql.connector.connect(
     host="127.0.0.1",
     port="3306",
-    database="flight_game",
+    database="flightgame",
     user="root",
-    password="2012004",
+    password="AabanPrasla",
     autocommit=True
 )
 
@@ -81,16 +81,18 @@ airport_passenger_amount.pop(starting_location)
 passenger_sum = 0
 fuel_efficiency = 0
 total_distance_travelled = 0
+Total_number_passenger = 300
+Amount_of_CO2_emitted_per_km = 0.125
 
-while passenger_sum <= 300:
-    if passenger_sum <= 300:
+while passenger_sum <= Total_number_passenger:
+    if passenger_sum <= Total_number_passenger:
         current_location = starting_location
         for airport in list_of_airports:
             print(f"{airport}: {airport_passenger_amount[airport]} passengers, distance to airport: {distanceTravelled(current_location, airport)}")
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
         next_location = input("\nNext Destination: ")
         if next_location in list_of_airports:
-            fuel_efficiency += round(0.125 * distanceTravelled(current_location, next_location), 2)
+            fuel_efficiency += round(Amount_of_CO2_emitted_per_km * distanceTravelled(current_location, next_location), 2)
             total_distance_travelled += distanceTravelled(current_location, next_location)
         else:
             continue
