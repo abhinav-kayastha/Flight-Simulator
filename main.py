@@ -86,7 +86,7 @@ while passenger_sum <= 300:
     if passenger_sum <= 300:
         current_location = starting_location
         for airport in list_of_airports:
-            print(f"{airport}: {airport_passenger_amount[airport]} passengers")
+            print(f"{airport}: {airport_passenger_amount[airport]} passengers, distance to airport: {distanceTravelled(current_location, airport)}")
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
         next_location = input("\nNext Destination: ")
         if next_location in list_of_airports:
