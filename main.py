@@ -62,9 +62,9 @@ print(
     "Welcome to the about page, this page is to help you understand how the game work, how to succeed in the game as well as, the purpose behind this game.\n"
     "In the game you will you will be presented with a list with option to pick you starting airport.\n"
     "Once that has been decided you will be given a list of all the possible airports you can travel to.\n"
-    "In addition you also be given the number of passengers that wish to travel to each airport location, the distance to those airports and the amount of CO2 emitted while travelling to those locations.\n"
+    "In addition you also be given the number of passengers that wish to travel to each airport location, the distance to those airports.\n"
     "When you have decided on where you wish to travel write the name of the airport in the console and your location will be updated.\n"
-    "The goal of the game is to transport 300 passenger while using as little CO2 as possible.\n"
+    "The goal of the game is to transport 300 passengers while using as little CO2 as possible.\n"
     "When the game is over you will be told your 'Fuel efficiency', meaning the average amount of CO2 used to transport a passenger meaning the lower your score, the more efficient you are.\nThis is going to be your score and you can repeat the game as many times as you want if you wish to improve you score.\n"
     "The purpose of the game is teach the player the importance being sustainable.\n"
     "And with all these things in mind, we hope you enjoy our game and learn to be a little bit more sustainable.\n")
@@ -137,5 +137,5 @@ while passenger_sum <= Total_number_passenger:
                 current_location = next_location
 
 print(
-    f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled, 2)} km, by using {Fuel_consumed_during_flight} kg of CO2.\n"
+    f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled, 2)} km, by using {round(Fuel_consumed_during_flight, 2)} kg of CO2.\n"
     f"You score is {round((Fuel_consumed_during_flight/passenger_sum), 2)} ")  # win message
