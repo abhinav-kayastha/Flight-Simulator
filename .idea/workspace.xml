@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="typo correction and setting the passenger transport to 300">
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="fixing introduction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -100,7 +100,7 @@
       <workItem from="1665500647070" duration="107000" />
       <workItem from="1665500942460" duration="21000" />
       <workItem from="1665568893105" duration="2658000" />
-      <workItem from="1665572851887" duration="1397000" />
+      <workItem from="1665572851887" duration="3001000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -298,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665500747463</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixing introduction">
+      <created>1665574878284</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1665574878284</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +323,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Abhinav's interpreter update" />
     <MESSAGE value="#Sid test commit 2" />
     <MESSAGE value="Abhinav's update 2" />
     <MESSAGE value="player info variables added (can be changed) and addition of database connection" />
@@ -341,9 +347,10 @@
     <MESSAGE value="removing new 1.sql and passengers.md, not required for code to run" />
     <MESSAGE value="test push" />
     <MESSAGE value="typo correction and setting the passenger transport to 300" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo correction and setting the passenger transport to 300" />
+    <MESSAGE value="fixing introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing introduction" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1665574183014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1665576387405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

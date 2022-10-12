@@ -109,33 +109,27 @@ while passenger_sum <= Total_number_passenger:
                 f"{airport}: {airport_passenger_amount[airport]} passengers, Distance to Airport: {round(distanceTravelled(current_location, airport))} km")  # shows airports and how many passengers want to travel there
         print(f"\nTotal amount of passengers transported: {passenger_sum}")
         next_location = input("\nNext Destination: ")
-        if next_location in list_of_airports:
-            Fuel_consumed_during_flight += round(Amount_of_CO2_emitted_per_km * distanceTravelled(current_location, next_location),
-                                                 2)
-            total_distance_travelled += distanceTravelled(current_location, next_location)
-        else:
-            continue
         while True:
             if next_location in list_of_airports:
+                Fuel_consumed_during_flight += round(Amount_of_CO2_emitted_per_km * distanceTravelled(current_location, next_location),
+                                                     2)
+                total_distance_travelled += distanceTravelled(current_location, next_location)
                 passenger_sum += airport_passenger_amount[next_location]
                 current_location = next_location
-                break
-            else:
-                next_location = input("\nEnter a valid airport: ")
-        for airport in airport_passenger_amount:
-            airport_passenger_amount[airport] = randint(80, 150)  # reassigning passenger amount to each airport
-        while True:
-            if next_location in list_of_airports:
                 list_of_airports.remove(next_location)
                 airport_passenger_amount.pop(next_location)
                 break
             else:
                 for airport in airport_passenger_amount:
-                    print(f"{airport}: {airport_passenger_amount[airport]} passengers")
+                    print(f"{airport}: {airport_passenger_amount[airport]} passengers, Distance to Airport: {round(distanceTravelled(current_location, airport))} km")
                 print("\nEnter a valid airport.")
                 next_location = input("\nNext Destination: ")
                 current_location = next_location
+                for airport in airport_passenger_amount:
+                    airport_passenger_amount[airport] = randint(80, 150)  # reassigning passenger amount to each airport
+                continue
+
 
 print(
-    f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled, 2)} km, by using {round(Fuel_consumed_during_flight, 2)} kg of CO2.\n"
+    f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled)} km, by using {round(Fuel_consumed_during_flight, 2)} kg of CO2.\n"
     f"You score is {round((Fuel_consumed_during_flight/passenger_sum), 2)} ")  # win message
