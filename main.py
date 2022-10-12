@@ -118,15 +118,14 @@ while passenger_sum <= Total_number_passenger:
                 current_location = next_location
                 list_of_airports.remove(next_location)
                 airport_passenger_amount.pop(next_location)
+                for airport in airport_passenger_amount:
+                    airport_passenger_amount[airport] = randint(80, 150)  # reassigning passenger amount to each airport
                 break
             else:
                 for airport in airport_passenger_amount:
                     print(f"{airport}: {airport_passenger_amount[airport]} passengers, Distance to Airport: {round(distanceTravelled(current_location, airport))} km")
                 print("\nEnter a valid airport.")
                 next_location = input("\nNext Destination: ")
-                current_location = next_location
-                for airport in airport_passenger_amount:
-                    airport_passenger_amount[airport] = randint(80, 150)  # reassigning passenger amount to each airport
                 continue
 
 
