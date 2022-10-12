@@ -111,8 +111,7 @@ while passenger_sum <= Total_number_passenger:
         next_location = input("\nNext Destination: ")
         while True:
             if next_location in list_of_airports:
-                Fuel_consumed_during_flight += round(Amount_of_CO2_emitted_per_km * distanceTravelled(current_location, next_location),
-                                                     2)
+                Fuel_consumed_during_flight += round(Amount_of_CO2_emitted_per_km * distanceTravelled(current_location, next_location), 2)
                 total_distance_travelled += distanceTravelled(current_location, next_location)
                 passenger_sum += airport_passenger_amount[next_location]
                 current_location = next_location
@@ -129,6 +128,5 @@ while passenger_sum <= Total_number_passenger:
                 continue
 
 
-print(
-    f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled)} km, by using {round(Fuel_consumed_during_flight, 2)} kg of CO2.\n"
+print(f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled)} km, by using {round(Fuel_consumed_during_flight, 2)} kg of CO2.\n"
     f"You score is {round((Fuel_consumed_during_flight/passenger_sum), 2)} ")  # win message
