@@ -65,7 +65,7 @@ print(
     "In addition you also be given the number of passengers that wish to travel to each airport location, the distance to those airports.\n"
     "When you have decided on where you wish to travel write the name of the airport in the console and your location will be updated.\n"
     "The goal of the game is to transport 300 passengers while using as little CO2 as possible.\n"
-    "When the game is over you will be told your 'Fuel efficiency', meaning the average amount of CO2 used to transport a passenger meaning the lower your score, the more efficient you are.\nThis is going to be your score and you can repeat the game as many times as you want if you wish to improve you score.\n"
+    "When the game is over you will be told your 'Fuel efficiency', meaning the average amount of CO2 emitted to transport a passenger meaning the lower your score, the more efficient you are.\nThis is going to be your score and you can repeat the game as many times as you want if you wish to improve you score.\n"
     "The purpose of the game is teach the player the importance being sustainable.\n"
     "And with all these things in mind, we hope you enjoy our game and learn to be a little bit more sustainable.\n")
 
@@ -128,5 +128,5 @@ while passenger_sum <= Total_number_passenger:
                 continue
 
 
-print(f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled)} km, by using {round(Fuel_consumed_during_flight, 2)} kg of CO2.\n"
-    f"You score is {round((Fuel_consumed_during_flight/passenger_sum), 2)} ")  # win message
+print(f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total distance of {round(total_distance_travelled)} km, by emitting {round(Fuel_consumed_during_flight, 2)} kg of CO2.\n"
+    f"You score is {round((Fuel_consumed_during_flight/passenger_sum), 2)} kg of CO2/ 1 passenger.")  # win message

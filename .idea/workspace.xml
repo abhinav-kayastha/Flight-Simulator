@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="FIXED: giving correct airport after wrong airport resulted in big distance and on infinite loop.">
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="tidying up the code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,8 @@
       <workItem from="1665500647070" duration="107000" />
       <workItem from="1665500942460" duration="21000" />
       <workItem from="1665568893105" duration="2658000" />
-      <workItem from="1665572851887" duration="3605000" />
+      <workItem from="1665572851887" duration="5451000" />
+      <workItem from="1665638319413" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -311,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665576546308</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="FIXED: i think now its actually fixed">
+      <created>1665577083540</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1665577083540</updated>
+    </task>
+    <task id="LOCAL-00032" summary="tidying up the code">
+      <created>1665577174094</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1665577174094</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,8 +345,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Abhinav's update 2" />
-    <MESSAGE value="player info variables added (can be changed) and addition of database connection" />
     <MESSAGE value="database addition" />
     <MESSAGE value="mysql deletion" />
     <MESSAGE value="addition of the sql file" />
@@ -354,9 +368,11 @@
     <MESSAGE value="typo correction and setting the passenger transport to 300" />
     <MESSAGE value="fixing introduction" />
     <MESSAGE value="FIXED: giving correct airport after wrong airport resulted in big distance and on infinite loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="FIXED: giving correct airport after wrong airport resulted in big distance and on infinite loop." />
+    <MESSAGE value="FIXED: i think now its actually fixed" />
+    <MESSAGE value="tidying up the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="tidying up the code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1665576906380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1665638466769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
