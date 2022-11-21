@@ -2,7 +2,7 @@
 from geopy import distance
 from random import randint
 import mysql.connector
-
+from flask import Flask
 
 #  Function to get the list of airports in Finland
 def getAirports():
