@@ -4,13 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="FIXED: giving correct airport after wrong airport resulted in big distance and on infinite loop.">
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="Added HTML + CSS files">
+      <change afterPath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/03_Images/Clouds1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/03_Images/Clouds2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/03_Images/Map_of_Finland-en2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/03_Images/game_finland_map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/03_Images/hand-drawn-finland-map-infographic_23-2148782125.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/02_CSS/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/02_CSS/style_game.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,17 +35,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FIxYf7wL1MbTok547HG5SaDKY3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abhin/OneDrive/Desktop/new 1.sql&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sidda/PycharmProjects/pythonProject/Flight-Simulator/Website/03_Images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -43,6 +64,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\03_Images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Flight-Simulator" />
@@ -100,6 +126,7 @@
       <workItem from="1665500942460" duration="21000" />
       <workItem from="1665568893105" duration="2658000" />
       <workItem from="1665572851887" duration="3605000" />
+      <workItem from="1670470499956" duration="1831000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -311,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665576546308</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added HTML + CSS files">
+      <created>1670318413240</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670318413240</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +363,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Abhinav's update 2" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="player info variables added (can be changed) and addition of database connection" />
     <MESSAGE value="database addition" />
     <MESSAGE value="mysql deletion" />
@@ -354,9 +388,10 @@
     <MESSAGE value="typo correction and setting the passenger transport to 300" />
     <MESSAGE value="fixing introduction" />
     <MESSAGE value="FIXED: giving correct airport after wrong airport resulted in big distance and on infinite loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="FIXED: giving correct airport after wrong airport resulted in big distance and on infinite loop." />
+    <MESSAGE value="Added HTML + CSS files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HTML + CSS files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1665576906380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670330143610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
