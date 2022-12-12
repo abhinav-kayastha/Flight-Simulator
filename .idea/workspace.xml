@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="helloooooo">
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="installing flask">
+      <change beforePath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flight Game Prototype DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Flight Game Prototype DB.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/abhin/OneDrive/Desktop/new 1.sql&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -142,6 +145,10 @@
       <workItem from="1670833575795" duration="245000" />
       <workItem from="1670833881311" duration="3320000" />
       <workItem from="1670839186258" duration="3024000" />
+      <workItem from="1670875094646" duration="133000" />
+      <workItem from="1670875240536" duration="759000" />
+      <workItem from="1670876043710" duration="34000" />
+      <workItem from="1670876193747" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -427,7 +434,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="helloooooo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670573310564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1670851198070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670875852946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1669719762305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
