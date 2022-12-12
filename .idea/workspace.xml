@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="reformatted file and stuff">
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/02_CSS/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/02_CSS/style_game.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/03_Images/Clouds1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Website/04_Misc/Clouds1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/03_Images/Map_of_Finland-en2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Website/04_Misc/Map_of_Finland-en2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/03_Images/game_finland_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/game_finland_map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/03_Images/hand-drawn-finland-map-infographic_23-2148782125.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/hand-drawn-finland-map-infographic_23-2148782125.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/01_HTML/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/02_CSS/style_game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/04_Misc/hand-drawn-finland-map-infographic_23-2148782125.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/hand-drawn-finland-map-infographic_23-2148782125.webp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +25,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FIxYf7wL1MbTok547HG5SaDKY3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,11 +60,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website\04_Misc" />
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\01_HTML" />
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\02_CSS" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website\01_HTML" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\templates" />
-      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +133,7 @@
       <workItem from="1670577803633" duration="1912000" />
       <workItem from="1670833575795" duration="245000" />
       <workItem from="1670833881311" duration="3320000" />
-      <workItem from="1670839186258" duration="6142000" />
+      <workItem from="1670839186258" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -365,21 +366,7 @@
       <option name="project" value="LOCAL" />
       <updated>1670840461557</updated>
     </task>
-    <task id="LOCAL-00034" summary="finally connecting the frontend to the backend">
-      <created>1670842296920</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1670842296920</updated>
-    </task>
-    <task id="LOCAL-00035" summary="reformatted file and stuff">
-      <created>1670845356781</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1670845356781</updated>
-    </task>
-    <option name="localTasksCounter" value="36" />
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,6 +384,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="mysql deletion" />
+    <MESSAGE value="addition of the sql file" />
     <MESSAGE value="get airport name function added and a non working passenger travel function added" />
     <MESSAGE value="passenger travel function fix" />
     <MESSAGE value="checking the screen_name (if above 3 characters), check starting location (if exists in database)" />
@@ -420,12 +409,10 @@
     <MESSAGE value="added flask app" />
     <MESSAGE value="adding app.py stuff" />
     <MESSAGE value="moving website files to their respective directories and removing the templates directory" />
-    <MESSAGE value="finally connecting the frontend to the backend" />
-    <MESSAGE value="reformatted file and stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="reformatted file and stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving website files to their respective directories and removing the templates directory" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670573310564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1670843899771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670330143610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1670845152718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
