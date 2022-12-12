@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="installing flask">
-      <change beforePath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="changed database setting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight Game Prototype DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Flight Game Prototype DB.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +146,9 @@
       <workItem from="1670875240536" duration="759000" />
       <workItem from="1670876043710" duration="34000" />
       <workItem from="1670876193747" duration="170000" />
+      <workItem from="1670876425212" duration="936000" />
+      <workItem from="1670877568779" duration="142000" />
+      <workItem from="1670877839475" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -388,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670846804044</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="changed database setting">
+      <created>1670876526929</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670876526929</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="addition of the sql file" />
     <MESSAGE value="get airport name function added and a non working passenger travel function added" />
     <MESSAGE value="passenger travel function fix" />
     <MESSAGE value="checking the screen_name (if above 3 characters), check starting location (if exists in database)" />
@@ -431,10 +437,11 @@
     <MESSAGE value="adding app.py stuff" />
     <MESSAGE value="moving website files to their respective directories and removing the templates directory" />
     <MESSAGE value="helloooooo" />
-    <option name="LAST_COMMIT_MESSAGE" value="helloooooo" />
+    <MESSAGE value="changed database setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed database setting" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670875852946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670876445616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1669719762305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
