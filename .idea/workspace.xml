@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="Added HTML + CSS files V2">
-      <change beforePath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="moving website files to their respective directories and removing the templates directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/02_CSS/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/style_game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_finland_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game_finland_map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/01_GamePage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +23,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FIxYf7wL1MbTok547HG5SaDKY3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,9 +56,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\templates" />
-      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\templates" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website\01_HTML" />
+      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website" />
+      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\templates" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator" />
     </key>
   </component>
@@ -133,8 +127,8 @@
       <workItem from="1670571296343" duration="3864000" />
       <workItem from="1670577803633" duration="1912000" />
       <workItem from="1670833575795" duration="245000" />
-      <workItem from="1670833881311" duration="2643000" />
-      <workItem from="1670838949246" duration="1241000" />
+      <workItem from="1670833881311" duration="3320000" />
+      <workItem from="1670839186258" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -353,7 +347,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670573637466</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="adding app.py stuff">
+      <created>1670836685167</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670836685167</updated>
+    </task>
+    <task id="LOCAL-00033" summary="moving website files to their respective directories and removing the templates directory">
+      <created>1670840461557</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1670840461557</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,8 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="player info variables added (can be changed) and addition of database connection" />
-    <MESSAGE value="database addition" />
     <MESSAGE value="mysql deletion" />
     <MESSAGE value="addition of the sql file" />
     <MESSAGE value="get airport name function added and a non working passenger travel function added" />
@@ -396,10 +402,12 @@
     <MESSAGE value="fixing introduction" />
     <MESSAGE value="FIXED: giving correct airport after wrong airport resulted in big distance and on infinite loop." />
     <MESSAGE value="added flask app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added flask app" />
+    <MESSAGE value="adding app.py stuff" />
+    <MESSAGE value="moving website files to their respective directories and removing the templates directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving website files to their respective directories and removing the templates directory" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670330143610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1670838780699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670573310564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1670842086502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
