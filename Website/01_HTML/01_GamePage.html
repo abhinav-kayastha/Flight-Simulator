@@ -4,35 +4,64 @@
     <meta charset="UTF-8">
     <title class="GameTitle">CO2 Saver</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Website/02_CSS/style_game.css">
+    <link rel="stylesheet" href="../02_CSS/style_game.css">
 </head>
 <body>
 <div class="Container">
     <div class="form_username">
-        <form action="/api" method="POST">
-            <input type="submit" value="submit"/>
+        <form action='http://127.0.0.1:5000/user_data' method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="uname" placeholder="username">
+            <button type="submit">Enter</button>
         </form>
     </div>
-  <header class="HeaderNav">
-    <div class="LogoNav"><p>Flight Simulator Game</p></div>
-    <nav>
-    <ul>
-      <li><a href="#">Game</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Leaderboards</a></li>
-    </ul>
-    </nav>
-  </header>
+    <header class="HeaderNav">
+        <div class="LogoNav"><p>Flight Simulator Game</p></div>
+        <nav>
+            <ul>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Leaderboards</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="Map">
-            <img src="Website/03_Images/hand-drawn-finland-map-infographic_23-2148782125.webp" class="MapMap">
+            <img src="game_finland_map.svg" class="MapMap">
         </div>
         <div class="Boxes">
             <section class="Box">
                 <header>
-                    <h2></h2>
+                    <h2>Consumed</h2>
                 </header>
+                <table>
+                    <tr>
+                        <td><span id="Consumed">X</span>/1000</td>
+                    </tr>
+                </table>
             </section>
+            <section class="Box">
+                <header>
+                    <h2>Passengers Travelled</h2>
+                </header>
+                <table>
+                    <tr>
+                        <td><span id="Passengers">Y</span>/300</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="Box">
+                <header>
+                    <h2>Passengers left</h2>
+                </header>
+                <table>
+                    <tr>
+                        <td><span id="Passengers_left">Z<!--Where Z = (300 - Y) --></span></td>
+                    </tr>
+                </table>
+            </section>
+            <!-- Api section here-->
+            <!-- Select button here-->
         </div>
     </main>
 
