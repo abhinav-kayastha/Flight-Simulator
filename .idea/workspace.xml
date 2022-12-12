@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="Added HTML + CSS files">
-      <change afterPath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/03_Images/Clouds1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/03_Images/Clouds2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/03_Images/Map_of_Finland-en2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/03_Images/game_finland_map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Website/03_Images/hand-drawn-finland-map-infographic_23-2148782125.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Website/01_HTML/form_test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/02_CSS/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/02_CSS/style_game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/03_Images/Clouds1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Website/04_Misc/Clouds1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/03_Images/Map_of_Finland-en2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Website/04_Misc/Map_of_Finland-en2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/03_Images/game_finland_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/game_finland_map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/03_Images/hand-drawn-finland-map-infographic_23-2148782125.webp" beforeDir="false" afterPath="$PROJECT_DIR$/Website/04_Misc/hand-drawn-finland-map-infographic_23-2148782125.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\03_Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\04_Misc" />
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\01_HTML" />
     </key>
   </component>
   <component name="RunManager">
@@ -126,7 +130,11 @@
       <workItem from="1665500942460" duration="21000" />
       <workItem from="1665568893105" duration="2658000" />
       <workItem from="1665572851887" duration="3605000" />
-      <workItem from="1670470499956" duration="1831000" />
+      <workItem from="1670470499956" duration="3342000" />
+      <workItem from="1670502009898" duration="1852000" />
+      <workItem from="1670567441499" duration="1727000" />
+      <workItem from="1670570263627" duration="2726000" />
+      <workItem from="1670833401913" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -345,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670318413240</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added HTML + CSS files">
+      <created>1670498407478</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670498407478</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

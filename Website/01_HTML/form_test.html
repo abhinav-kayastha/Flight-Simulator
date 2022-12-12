@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+######
+</body>
+</html>
+##########################
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+        <script>
+//            $("#submit").click(function() {
+  ////        });
+            let sb = document.getElementById("submit")
+            sb.click(function() {
+              $("#hello").innerHTML = "Hello " + $("#username").text() + ". Welcome to play the game";
+            });
+        </script>
+
+
+    </head>
+    <body>
+
+    <form id="usernameform" action="https://192.168.100.16:5000/api" method="GET">
+        username <input id="username" type="text" name="username">
+        <input id="submit" type="button" name="submit" value="Create username">
+    </form>

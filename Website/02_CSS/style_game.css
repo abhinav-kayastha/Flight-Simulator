@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
-    border: 0;
-    padding: 0;
+    /*border: 0;
+    padding: 0;*/
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -15,12 +15,12 @@ body{
     background: url(../03_Images/Clouds2.jpg);
     background-size: 100%;
 }
-header{
+/*header{
     margin: 0;
     padding-top: 0;
     border-top: 0;
     background-color: dodgerblue;
-}
+}*/
 .HeaderNav{
     margin: 0;
     width: 100%;
@@ -53,4 +53,11 @@ nav ul li a {
 }
 .MapMap {
     width: 50%;
+}
+.Boxes section{
+    background-color: aliceblue;
+}
+section. table{
+    border: 3px;
+    border-color: black;
 }
