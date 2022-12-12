@@ -58,6 +58,7 @@ list_of_airports = getAirports()
 airport_passenger_amount = passengerTravel()
 
 #  Rules/Introduction to the game
+# lands here
 print(
     "Welcome to the about page, this page is to help you understand how the game work, how to succeed in the game as well as, the purpose behind this game.\n"
     "In the game you will you will be presented with a list with option to pick you starting airport.\n"
@@ -70,10 +71,12 @@ print(
     "And with all these things in mind, we hope you enjoy our game and learn to be a little bit more sustainable.\n")
 
 #  Getting the username of the player and checking if it is longer than 3 characters
+# form for username
 screen_name = input("Enter Player Name (min. 3 characters): ")
 while True:
     if len(screen_name) >= 3:
         break
+        # deliver to backend
     else:
         print("Enter a player name with a minimum of 3 characters.")
         screen_name = input("Enter Player Name (min. 3 characters): ")
@@ -99,7 +102,6 @@ Fuel_consumed_during_flight = 0
 total_distance_travelled = 0
 Total_number_passenger = 300
 Amount_of_CO2_emitted_per_km = 0.125
-
 
 #  Logic behind the game
 
@@ -133,7 +135,7 @@ while passenger_sum <= Total_number_passenger:
                 next_location = input("\nNext Destination: ")
                 continue
 print(
-        f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total "
-        f"distance of {round(total_distance_travelled)} km, by emitting "
-        f"{round(Fuel_consumed_during_flight, 2)} kg of CO2.\n "
-        f"You score is {round((Fuel_consumed_during_flight / passenger_sum), 2)} kg of CO2/passenger.")  # win message
+    f"Congratulations {screen_name}, you win! You have transported {passenger_sum} passengers, travelled a total "
+    f"distance of {round(total_distance_travelled)} km, by emitting "
+    f"{round(Fuel_consumed_during_flight, 2)} kg of CO2.\n "
+    f"You score is {round((Fuel_consumed_during_flight / passenger_sum), 2)} kg of CO2/passenger.")  # win message
