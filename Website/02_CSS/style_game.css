@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* ####### utilities ####### */
+.Button{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+.Button-green{
+    background-color: green;
+    color: aliceblue;
+}
+.Flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Space-evenly{
+    justify-content: space-evenly;
+}
+
+/* ####### app specific ####### */
 
 * {
     /*border: 0;
@@ -21,7 +40,7 @@ body{
     border-top: 0;
     background-color: dodgerblue;
 }*/
-.HeaderNav{
+.HeaderNav {
     margin: 0;
     width: 100%;
     height: 80px;
@@ -51,11 +70,26 @@ nav ul li a {
     font-size: 18px;
     padding-inline: 2rem;
 }
-.MapMap {
-    width: 50%;
+#Map{
+    width: 40%;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+#MapMap {
+    width: 100%;
+    height: auto;
+}
+.Boxes{
+    width: 55%
 }
 .Boxes section{
     background-color: aliceblue;
+}
+.Box{
+    padding-left: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 15px;
 }
 section. table{
     border: 3px;
