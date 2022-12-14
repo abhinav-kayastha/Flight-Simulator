@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, render_template
 import mysql.connector
 
 def userNameToDB(username):
@@ -20,14 +20,9 @@ connection = mysql.connector.connect(
 app = Flask(__name__)
 
 
-@app.route('/user_data', methods=["GET", "POST"])
-def user_data():
-    if request.method == "POST":
-        username = request.form.get("uname")
-        userNameToDB(username)
-        return "Success"
-    else:
-        return "Failed"
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 
 if __name__ == '__main__':

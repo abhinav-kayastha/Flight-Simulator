@@ -4,17 +4,11 @@
     <meta charset="UTF-8">
     <title class="GameTitle">CO2 Saver</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../02_CSS/style_game.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/username_prompt.js" defer></script>
 </head>
 <body>
 <div class="Container">
-    <div class="form_username">
-        <form action='http://127.0.0.1:5000/user_data' method="POST">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="uname" placeholder="username">
-            <button type="submit">Enter</button>
-        </form>
-    </div>
     <header class="HeaderNav">
         <div class="LogoNav"><p>Flight Simulator Game</p></div>
         <nav>
@@ -27,7 +21,7 @@
     </header>
     <main class="Flex-wrap">
         <div id="Map">
-            <img src="game_finland_map.svg" id="MapMap" alt="map of Finland">
+            <img src="../static/game_finland_map.svg" id="MapMap" alt="map of Finland">
         </div>
         <div class="Boxes">
             <section class="Box">

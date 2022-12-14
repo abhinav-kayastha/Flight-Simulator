@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="added CSS flex">
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="getting the .env file and putting the data">
+      <change afterPath="$PROJECT_DIR$/static/username_prompt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/weather_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/weather_api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/01_HTML/game_finland_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/game_finland_map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/01_HTML/hand-drawn-finland-map-infographic_23-2148782125.webp" beforeDir="false" afterPath="$PROJECT_DIR$/static/hand-drawn-finland-map-infographic_23-2148782125.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/02_CSS/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/03_Images/Clouds2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Clouds2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/04_Misc/Clouds1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/static/Clouds1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/04_Misc/Map_of_Finland-en2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Map_of_Finland-en2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +45,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,11 +62,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/abhin/OneDrive/Desktop/new 1.sql&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -68,11 +81,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\static" />
+      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\templates" />
+      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website" />
       <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\01_HTML" />
       <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\02_CSS" />
-      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website\01_HTML" />
-      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website" />
-      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -142,6 +155,14 @@
       <workItem from="1670833575795" duration="245000" />
       <workItem from="1670833881311" duration="3320000" />
       <workItem from="1670839186258" duration="3024000" />
+      <workItem from="1670875094646" duration="133000" />
+      <workItem from="1670875240536" duration="759000" />
+      <workItem from="1670876043710" duration="34000" />
+      <workItem from="1670876193747" duration="170000" />
+      <workItem from="1670933182454" duration="2423000" />
+      <workItem from="1671026119526" duration="301000" />
+      <workItem from="1671028897288" duration="201000" />
+      <workItem from="1671029358636" duration="3752000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -374,14 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670840461557</updated>
     </task>
-    <task id="LOCAL-00034" summary="added CSS flex">
-      <created>1670919496832</created>
+    <task id="LOCAL-00034" summary="helloooooo">
+      <created>1670846804044</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1670919496832</updated>
+      <updated>1670846804044</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="making the javascript file for the weather api">
+      <created>1670935368673</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670935368673</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="addition of the sql file" />
     <MESSAGE value="get airport name function added and a non working passenger travel function added" />
     <MESSAGE value="passenger travel function fix" />
     <MESSAGE value="checking the screen_name (if above 3 characters), check starting location (if exists in database)" />
@@ -423,11 +450,12 @@
     <MESSAGE value="added flask app" />
     <MESSAGE value="adding app.py stuff" />
     <MESSAGE value="moving website files to their respective directories and removing the templates directory" />
-    <MESSAGE value="added CSS flex" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CSS flex" />
+    <MESSAGE value="helloooooo" />
+    <MESSAGE value="making the javascript file for the weather api" />
+    <option name="LAST_COMMIT_MESSAGE" value="making the javascript file for the weather api" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670330143610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1670845152718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670876563656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1671033145284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
