@@ -52,7 +52,9 @@ body{
     padding-left: 20px;
     padding-top: 20px;
     font-size: 30px;
-    color: aliceblue;
+    color: lawngreen;
+    font-weight: bold;
+
 }
 nav ul {
     float: right;
@@ -86,12 +88,31 @@ nav ul li a {
     background-color: aliceblue;
 }
 .Box{
-    padding-left: 3rem;
+    text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
     border-radius: 15px;
 }
-section. table{
-    border: 3px;
-    border-color: black;
+td{
+    padding-left: 23rem;
+    font-weight: normal;
+    color: seagreen;
+    font-family: "Comic Sans MS";
+}
+span{
+    font-family: "Comic Sans MS";
+    color: seagreen;
+    font-weight: normal;
+}
+#Select_btn{
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: seagreen;
+}
+.Without_border{
+    padding-left: 0;
+    margin-top: 1.5rem;
 }

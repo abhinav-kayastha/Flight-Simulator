@@ -2,26 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title class="GameTitle">CO2 Saver</title>
+    <title class="GameTitle">Fly Green</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style.css">
-    <script src="../static/username.js" defer></script>
+    <link rel="stylesheet" href="../02_CSS/style_game.css">
+    <script src="../../JavaScript/weather_api.js"></script>
 </head>
 <body>
 <div class="Container">
+    <div class="form_username">
+        <form action='http://127.0.0.1:5000/user_data' method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="uname" placeholder="username">
+            <button type="submit">Enter</button>
+        </form>
+    </div>
     <header class="HeaderNav">
-        <div class="LogoNav"><p>Flight Simulator Game</p></div>
+        <div class="LogoNav"><p>Fly Green</p></div>
         <nav>
             <ul>
-                <li><a href="#">Game</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="01_GamePage.html">Game</a></li>
+                <li><a href="02_AboutPage.html">About</a></li>
                 <li><a href="#">Leaderboards</a></li>
             </ul>
         </nav>
     </header>
     <main class="Flex-wrap">
         <div id="Map">
-            <img src="../static/game_finland_map.svg" id="MapMap" alt="map of Finland">
+            <img src="game_finland_map.svg" id="MapMap" alt="map of Finland">
         </div>
         <div class="Boxes">
             <section class="Box">
@@ -30,7 +37,7 @@
                 </header>
                 <table>
                     <tr>
-                        <td><span id="Consumed">X</span>/1000</td>
+                        <td><span id="Consumed">X</span> /1000</td>
                     </tr>
                 </table>
             </section>
@@ -40,7 +47,7 @@
                 </header>
                 <table>
                     <tr>
-                        <td><span id="Passengers">Y</span>/300</td>
+                        <td><span id="Passengers">Y</span> /300</td>
                     </tr>
                 </table>
             </section>
@@ -56,8 +63,19 @@
             </section>
             <!-- Api section here-->
             <!-- Select button here-->
+            <section class="Box Without_border">
+                <header>
+                    <button type="submit" id="Select_btn"><!--h2 id="Select_btn"-->SELECT<!--/h2--></button>
+                </header>
+                <!--table>
+                    <tr>
+                        <td><span id="Passengers">Y</span>/300</td>
+                    </tr>
+                </table-->
+            </section>
         </div>
     </main>
 </div>
+<footer>Thank you for Using this game!</footer>
 </body>
 </html>

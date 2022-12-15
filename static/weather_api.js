@@ -1,4 +1,4 @@
-const apiKey = "40c87dc6bc79464a367a089991c33997";
+const apiKey = "794bc234d44ce063d594d5840c40263d";
 
 const cityName = "Helsinki";
 
