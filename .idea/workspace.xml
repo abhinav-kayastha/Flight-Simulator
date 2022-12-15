@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="getting the .env file and putting the data">
-      <change afterPath="$PROJECT_DIR$/static/username_prompt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c88bd561-7c07-4f58-9905-f29d041f671b" name="Changes" comment="made necessary directories for flask usage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/weather_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/weather_api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/01_HTML/game_finland_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/game_finland_map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/01_HTML/hand-drawn-finland-map-infographic_23-2148782125.webp" beforeDir="false" afterPath="$PROJECT_DIR$/static/hand-drawn-finland-map-infographic_23-2148782125.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/02_CSS/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/03_Images/Clouds2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Clouds2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/04_Misc/Clouds1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/static/Clouds1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/04_Misc/Map_of_Finland-en2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Map_of_Finland-en2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/username_prompt.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/username_prompt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +152,8 @@
       <workItem from="1670933182454" duration="2423000" />
       <workItem from="1671026119526" duration="301000" />
       <workItem from="1671028897288" duration="201000" />
-      <workItem from="1671029358636" duration="3752000" />
+      <workItem from="1671029358636" duration="4132000" />
+      <workItem from="1671110414053" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -409,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670935368673</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="made necessary directories for flask usage">
+      <created>1671033277845</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671033277845</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get airport name function added and a non working passenger travel function added" />
     <MESSAGE value="passenger travel function fix" />
     <MESSAGE value="checking the screen_name (if above 3 characters), check starting location (if exists in database)" />
     <MESSAGE value="addition of passengers.md" />
@@ -452,7 +449,8 @@
     <MESSAGE value="moving website files to their respective directories and removing the templates directory" />
     <MESSAGE value="helloooooo" />
     <MESSAGE value="making the javascript file for the weather api" />
-    <option name="LAST_COMMIT_MESSAGE" value="making the javascript file for the weather api" />
+    <MESSAGE value="made necessary directories for flask usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="made necessary directories for flask usage" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670876563656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
