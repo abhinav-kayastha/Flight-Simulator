@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <title class="GameTitle">Fly Green</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../02_CSS/style_game.css">
-    <script src="../../JavaScript/weather_api.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="../static/weather_api.js"></script>
 </head>
 <body>
 <div class="Container">
+    <header class="HeaderNav">
+        <div class="LogoNav"><p>Fly Green</p></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Game</a></li>
+                <li><a href="02_AboutPage.html">About</a></li>
+                <li><a href="#">Leaderboards</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="form_username">
         <form action='http://127.0.0.1:5000/user_data' method="POST">
             <label for="username">Username:</label>
@@ -16,16 +26,6 @@
             <button type="submit">Enter</button>
         </form>
     </div>
-    <header class="HeaderNav">
-        <div class="LogoNav"><p>Fly Green</p></div>
-        <nav>
-            <ul>
-                <li><a href="01_GamePage.html">Game</a></li>
-                <li><a href="02_AboutPage.html">About</a></li>
-                <li><a href="#">Leaderboards</a></li>
-            </ul>
-        </nav>
-    </header>
     <main class="Flex-wrap">
         <div id="Map">
             <img src="game_finland_map.svg" id="MapMap" alt="map of Finland">

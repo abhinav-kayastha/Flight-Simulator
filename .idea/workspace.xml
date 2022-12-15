@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02afe151-c725-40fc-bddb-19f1ce52fd17" name="Changes" comment="making the javascript file for the weather api">
-      <change afterPath="$PROJECT_DIR$/Website/01_HTML/02_AboutPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Flight-Simulator.iml" afterDir="false" />
+    <list default="true" id="02afe151-c725-40fc-bddb-19f1ce52fd17" name="Changes" comment="added Select button, css with comic sans + table formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/weather_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/weather_api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/01_HTML/01_GamePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/02_CSS/style_game.css" beforeDir="false" afterPath="$PROJECT_DIR$/Website/02_CSS/style_game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/02_AboutPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/02_AboutPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/game_finland_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game_finland_map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,36 +49,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "last_opened_file_path": "C:/Users/abhin/OneDrive/Desktop/new 1.sql",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abhin/OneDrive/Desktop/new 1.sql&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\templates" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\templates" />
       <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\01_HTML" />
       <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\02_CSS" />
-      <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website\01_HTML" />
     </key>
   </component>
   <component name="RunManager">
@@ -452,6 +450,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670330143610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1670845152718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1671120457875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
