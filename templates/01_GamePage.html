@@ -13,9 +13,9 @@
         <div class="LogoNav"><p>Fly Green</p></div>
         <nav>
             <ul>
-                <li><a href="index.html">Game</a></li>
+                <li><a href="01_GamePage.html">Game</a></li>
                 <li><a href="02_AboutPage.html">About</a></li>
-                <li><a href="#">Leaderboards</a></li>
+                <li><a href="03_Leaderboards.html">Leaderboards</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +28,20 @@
     </div>
     <main class="Flex-wrap">
         <div id="Map">
-            <img src="game_finland_map.svg" id="MapMap" alt="map of Finland">
+            <!--img src="game_finland_map.svg" id="MapMap" alt="map of Finland"-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20648.73682374226!2d24.94117061773148!3d60.313465273289054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df8658f62a2b1%3A0xfbf0d9012c28b396!2sHelsinki%20Airport!5e0!3m2!1sen!2sin!4v1671159478476!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" id="MapMap"></iframe>
+            <!--script>
+                function initMap() {
+                    var location = {lat: -25.363,lng: 131.044}
+                    var map = new google.maps.Map(document.getElementById("Map"), {
+                        zoom: 4,
+                        centre: location
+                    });
+                }
+            </script>
+            <script async defer src=""-->
         </div>
         <div class="Boxes">
             <section class="Box">
@@ -76,6 +89,6 @@
         </div>
     </main>
 </div>
-<footer>Thank you for Using this game!</footer>
+<footer class="End">©FlyGreen</footer>
 </body>
 </html>

@@ -31,8 +31,12 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background: url(Clouds2.jpg);
+    background: url(Images/Clouds2.jpg);
     background-size: 100%;
+}
+.footer .End{
+    text-align: center;
+    background-color: dodgerblue;
 }
 /*header{
     margin: 0;
@@ -76,11 +80,14 @@ nav ul li a {
     width: 40%;
     margin-left: 3rem;
     margin-top: 1.5rem;
+    border-radius: 15px;
 }
-#MapMap {
+#MapMap{
     width: 100%;
-    height: auto;
+    height: 30rem;
+    border-radius: 20px;
 }
+
 .Boxes{
     width: 55%
 }
@@ -115,4 +122,57 @@ span{
 .Without_border{
     padding-left: 0;
     margin-top: 1.5rem;
+}
+/* ###### About Page specific ####### */
+
+.Front_title{
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.Images_Container{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.Images{
+    display: inline-block;
+    align-content: center;
+    padding-top: 0.5rem;
+    padding-left: 2.4rem;
+
+}
+.About_img{
+    width: 32%;
+    height:267px;
+    margin: 0.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,0.3);
+}
+/*.img1{
+    margin-left: 0.1rem;
+    padding-left: 2.4rem;
+    border radius
+} */
+
+.Para{
+    text-align: center;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    background: aliceblue;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 15px;
+    opacity: 80%;
+}
+
+/* ####### Leaderboards Specific ######## */
+
+.Future_update{
+    font-size: 80px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
 }

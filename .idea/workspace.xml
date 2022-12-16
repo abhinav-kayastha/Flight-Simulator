@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02afe151-c725-40fc-bddb-19f1ce52fd17" name="Changes" comment="added Select button, css with comic sans + table formatting">
+      <change afterPath="$PROJECT_DIR$/static/Images/img1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Images/img2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Images/img3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/03_Leaderboards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/02_AboutPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/02_AboutPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/game_finland_map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/game_finland_map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Clouds1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Clouds2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/Images/Clouds2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Map_of_Finland-en2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hand-drawn-finland-map-infographic_23-2148782125.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/02_AboutPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/02_AboutPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/game_finland_map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/01_GamePage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +84,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\static\Images" />
+      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\static" />
       <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\templates" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\Website" />
       <recent name="C:\Users\abhin\PycharmProjects\Flight-Simulator\templates" />
-      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\01_HTML" />
-      <recent name="C:\Users\sidda\PycharmProjects\pythonProject\Flight-Simulator\Website\02_CSS" />
     </key>
   </component>
   <component name="RunManager">
@@ -157,6 +167,9 @@
       <workItem from="1671008754012" duration="1588000" />
       <workItem from="1671022550705" duration="3083000" />
       <workItem from="1671115087314" duration="4920000" />
+      <workItem from="1671131731328" duration="213000" />
+      <workItem from="1671132026747" duration="4861000" />
+      <workItem from="1671158512920" duration="8816000" />
     </task>
     <task id="LOCAL-00001" summary="added 4th line of Abhinav is here">
       <created>1664195903629</created>
@@ -403,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670935368673</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added Select button, css with comic sans + table formatting">
+      <created>1671121739860</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671121739860</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get airport name function added and a non working passenger travel function added" />
     <MESSAGE value="passenger travel function fix" />
     <MESSAGE value="checking the screen_name (if above 3 characters), check starting location (if exists in database)" />
     <MESSAGE value="addition of passengers.md" />
@@ -446,10 +465,11 @@
     <MESSAGE value="moving website files to their respective directories and removing the templates directory" />
     <MESSAGE value="helloooooo" />
     <MESSAGE value="making the javascript file for the weather api" />
-    <option name="LAST_COMMIT_MESSAGE" value="making the javascript file for the weather api" />
+    <MESSAGE value="added Select button, css with comic sans + table formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Select button, css with comic sans + table formatting" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Flight_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1670330143610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1671120457875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flight_Simulator$app.coverage" NAME="app Coverage Results" MODIFIED="1671121638011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
